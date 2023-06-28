@@ -1,0 +1,6 @@
+__pycache__
+dataset
+dataset truth
+train_examples
+test_examples
+*.tif
