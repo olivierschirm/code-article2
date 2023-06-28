@@ -4,7 +4,7 @@ This code is associated with the paper ...
 
 This code is the property of Visorando company.
 
-## How to Run Your Own Experiment:
+## How to Run Your Own code:
 1. Create the dataset associated with the traces directory you want to work with (use _createDataset.py_).
 2. Create the truth associated with the traces truth directory you want to work with (use _createTruth.py_).
 3. Follow the instructions in the _main.ipynb_ Jupyter notebook.
@@ -25,7 +25,7 @@ The implementation aims to be highly flexible to allow testing of multiple confi
 - **nn.py**: TensorFlow file where training and predictions are set.
 - **models.py**: Contains neuronal network architectures and loss functions.
 - **definitions.py**: Includes common functions and constant definitions.
-- **truthhome.py**: Example of homemade truth for evaluation, based on Ribeauville truth vector.
+- **truthhome.geojson**: Example of homemade truth for evaluation, based on Ribeauville truth vector.
 
 ## Experiments and results
 Additionnaly we provide your experiement constitution and results in **featurepermutation** and **channelimapct** folder.
