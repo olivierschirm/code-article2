@@ -24,7 +24,7 @@ import numpy as np
 from PIL import Image
 import rasterio
 
-from models import UNet, dice_loss
+from models import *
 
 def trainModel(confTraining, confData, train_directory='train_examples'):
     """
