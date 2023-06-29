@@ -25,7 +25,7 @@ The implementation aims to be highly flexible to allow testing of multiple confi
 - **nn.py**: TensorFlow file where training and predictions are set.
 - **models.py**: Contains neuronal network architectures and loss functions.
 - **definitions.py**: Includes common functions and constant definitions.
-- **truthhome.py**: Example of homemade truth for evaluation, based on Ribeauville truth vector.
+- **truthhome.geojson**: Example of homemade truth for evaluation, based on Ribeauville truth vector.
 
 ## Experiments and results
-Additionnaly we provide your experiement constitution and results in **featurepermutation** and **channelimapct** folder.
+Additionnaly we provide your experiment results in **channel impact** and **channel importance** folder.
